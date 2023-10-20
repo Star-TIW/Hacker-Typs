@@ -4,7 +4,8 @@ import string
 
 def generate_random_variable():
     variable_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(3, 8)))
-    variable_value = random.choice(string.ascii_uppercase) + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(random.randint(5, 12)))
+    variable_value = random.choice(string.ascii_uppercase) + ''.join(random.choice(string.ascii_letters
++ string.digits) for _ in range(random.randint(5, 12)))
     return f"{variable_name} = '{variable_value}'"
 
 def generate_random_function():
@@ -14,7 +15,8 @@ def generate_random_function():
     return f"def {function_name}({arguments}):\n    {function_body}"
 
 def generate_random_code_line():
-    line = ''.join(random.choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(random.randint(20, 80)))
+    line = ''.join(random.choice(string.ascii_letters + string.digits + string.punctuation) 
+for _ in range(random.randint(20, 80)))
     return line
 
 def hack_system(target_ip):
