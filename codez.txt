@@ -97,51 +97,6 @@ for _ in range(400):
     print(generate_random_variable())
     time.sleep(0.1)
 
-for _ in range(40):
-    print(generate_random_function())
-    time.sleep(0.1)
-
-for _ in range(500):
-    print(generate_random_code_line())
-    time.sleep(0.1)
-
-for _ in range(600):
-    print(generate_random_variable())
-    time.sleep(0.1)
-
-for _ in range(50):
-    print(generate_random_function())
-    time.sleep(0.1)
-
-for _ in range(700):
-    print(generate_random_code_line())
-    time.sleep(0.1)
-
-for _ in range(800):
-    print(generate_random_variable())
-    time.sleep(0.1)
-
-for _ in range(60):
-    print(generate_random_function())
-    time.sleep(0.1)
-
-for _ in range(900):
-    print(generate_random_code_line())
-    time.sleep(0.1)
-
-for _ in range(1000):
-    print(generate_random_variable())
-    time.sleep(0.1)
-
-for _ in range(70):
-    print(generate_random_function())
-    time.sleep(0.1)
-
-for _ in range(1100):
-    print(generate_random_code_line())
-    time.sleep(0.1)
-
-
 struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
 
 struct group_info *groups_alloc(int gidsetsize){
