@@ -5,31 +5,6 @@ body {
   font-size: 20px;
 }
 
-.accessGranted {
-  position: fixed;
-  top: 200px;
-  background: #333;
-  padding: 20px;
-  border: 1px solid #999;
-  width: 300px;
-  left: 50%;
-  margin-left: -150px;
-  text-align: center;
-}
-
-.accessDenied {
-  position: fixed;
-  top: 200px;
-  color: #f00;
-  background: #511;
-  padding: 20px;
-  border: 1px solid #f00;
-  width: 300px;
-  left: 50%;
-  margin-left: -150px;
-  text-align: center;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
